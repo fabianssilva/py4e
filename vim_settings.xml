@@ -1,0 +1,179 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="true" />
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/Desktop/p4e/12.1/HTTPSocket.py" timestamp="1553281360326">
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="0" />
+        <mark key="." line="1" column="0" />
+      </file>
+      <file name="/Python Console" timestamp="1553276860536">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/PycharmProjects/NewProject/trytest.py" timestamp="1552495444856">
+        <mark key="'" line="19" column="0" />
+        <mark key="[" line="18" column="0" />
+        <mark key="]" line="17" column="0" />
+        <mark key="^" line="17" column="44" />
+        <mark key="." line="16" column="10" />
+      </file>
+      <file name="/fragment.py" timestamp="1552653764331">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/a.dummy" timestamp="1553261182097">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Desktop/p4e/13.2/FollowLink.py" timestamp="1553291022973">
+        <mark key="'" line="7" column="14" />
+        <mark key="[" line="17" column="10" />
+        <mark key="]" line="17" column="10" />
+        <mark key="." line="17" column="10" />
+      </file>
+      <file name="$USER_HOME$/Desktop/p4e/14.1/XMLSum.py" timestamp="1553293374845">
+        <mark key="'" line="26" column="15" />
+        <mark key="[" line="26" column="33" />
+        <mark key="]" line="26" column="33" />
+        <mark key="." line="26" column="33" />
+      </file>
+      <file name="$USER_HOME$/Desktop/p4e/week7assignment/iteration.py" timestamp="1552955536810">
+        <mark key="[" line="23" column="19" />
+        <mark key="]" line="23" column="27" />
+        <mark key="." line="23" column="27" />
+      </file>
+      <file name="$USER_HOME$/PycharmProjects/NewProject/teste.py" timestamp="1540933257574">
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="6" column="0" />
+        <mark key="." line="6" column="0" />
+      </file>
+      <file name="$USER_HOME$/Desktop/p4e/week2assigment/printscreen.py" timestamp="1552495819023">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Desktop/p4e/8.4/WordsList.py" timestamp="1553011785316">
+        <mark key="[" line="21" column="12" />
+        <mark key="]" line="21" column="12" />
+        <mark key="." line="21" column="12" />
+      </file>
+      <file name="$USER_HOME$/Desktop/p4e/9.4/EmailSender.py" timestamp="1553212141052">
+        <mark key="a" line="16" column="28" />
+        <mark key="[" line="1" column="20" />
+        <mark key="]" line="1" column="20" />
+        <mark key="." line="1" column="20" />
+      </file>
+      <file name="$USER_HOME$/Desktop/p4e/10.2/HourFrequency.py" timestamp="1553041819198">
+        <mark key="'" line="18" column="0" />
+      </file>
+      <file name="$USER_HOME$/Desktop/p4e/week3assigment/grade.py" timestamp="1552609546562">
+        <mark key="[" line="7" column="12" />
+        <mark key="]" line="15" column="0" />
+        <mark key="." line="15" column="0" />
+      </file>
+      <file name="$USER_HOME$/Desktop/p4e/11.2/NumbersCount.py" timestamp="1553214789166">
+        <mark key="[" line="2" column="11" />
+        <mark key="]" line="2" column="11" />
+        <mark key="." line="2" column="11" />
+      </file>
+      <file name="$USER_HOME$/Desktop/p4e/7.2/average.py" timestamp="1553013549110">
+        <mark key="'" line="17" column="39" />
+        <mark key="[" line="15" column="13" />
+        <mark key="]" line="17" column="42" />
+        <mark key="." line="17" column="42" />
+        <mark key="^" line="17" column="35" />
+      </file>
+      <file name="$USER_HOME$/Desktop/p4e/13.1/HTMLParser.py" timestamp="1553278990608">
+        <mark key="'" line="17" column="4" />
+        <mark key="[" line="17" column="4" />
+        <mark key="]" line="17" column="4" />
+        <mark key="." line="17" column="4" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="18" column="24" filename="$USER_HOME$/PycharmProjects/NewProject/trytest.py" />
+      <jump line="19" column="0" filename="$USER_HOME$/PycharmProjects/NewProject/trytest.py" />
+      <jump line="15" column="39" filename="$USER_HOME$/Desktop/p4e/7.2/average.py" />
+      <jump line="3" column="14" filename="$USER_HOME$/Desktop/p4e/9.4/EmailSender.py" />
+      <jump line="1" column="4" filename="$USER_HOME$/Desktop/p4e/10.2/HourFrequency.py" />
+      <jump line="21" column="15" filename="$USER_HOME$/Desktop/p4e/10.2/HourFrequency.py" />
+      <jump line="19" column="0" filename="$USER_HOME$/Desktop/p4e/10.2/HourFrequency.py" />
+      <jump line="17" column="4" filename="$USER_HOME$/Desktop/p4e/13.1/HTMLParser.py" />
+      <jump line="7" column="14" filename="$USER_HOME$/Desktop/p4e/13.2/FollowLink.py" />
+      <jump line="41" column="15" filename="$USER_HOME$/Desktop/p4e/14.1/XMLSum.py" />
+    </jumps>
+    <registers>
+      <register name="1" type="4">
+        <text encoding="base64">aWYgbGVuKGFkZHJlc3MpIDwgMToKICAgIGV4aXQoKQ==</text>
+      </register>
+      <register name="&quot;" type="4">
+        <text>'comment').</text>
+      </register>
+      <register name="2" type="4">
+        <text>parms = dict()
+parms['address'] = address
+if api_key is not False:
+    parms['key'] = api_key
+
+#url: str = serviceurl + urllib.parse.urlencode(parms)
+print('retrieving', url)</text>
+      </register>
+      <register name="3" type="4">
+        <text encoding="base64">bwoKaWYgYXBpX2tleSBpcyBGYWxzZToKICAgIGFwaV9rZXkgPSA0MgogICAgc2VydmljZXVybCA9ICdodHRwOi8vcHk0ZS1kYXRhLmRyLWNodWNrLm5ldC94bWw/JwplbHNlIDoKICAgIHNlcnZpY2V1cmwgPSAnaHR0cHM6Ly9tYXBzLmdvb2dsZWFwaXMuY29tL21hcHMvYXBpL2dlb2NvZGUveG1sPycK</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">ICAgbG5nID0gcmVzdWx0c1swXS5maW5kKCdnZW9tZXRyeScpLmZpbmQoJ2xvY2F0aW9uJykuZmluZCgnbG5nJykudGV4dAogICAgICAgIGxvY2F0aW9uID0gcmVzdWx0c1swXS5maW5kKCdmb3JtYXR0ZWRfYWRkcmVzcycpLnRleHQ=</text>
+      </register>
+      <register name="5" type="4">
+        <text>print(tag)
+    print(i)</text>
+      </register>
+      <register name="6" type="4">
+        <text encoding="base64">CiMgUmV0cmlldmUgYWxsIG9mIHRoZSBhbmNob3IgdGFncw==</text>
+      </register>
+      <register name="7" type="4">
+        <text encoding="base64">CmltcG9ydCByZXF1ZXN0</text>
+      </register>
+      <register name="8" type="4">
+        <text encoding="base64">CnByaW50KG51bWJlckxpc3Qp</text>
+      </register>
+      <register name="9" type="4">
+        <text encoding="base64">CgpmbmFtZSA9IGlucHV0KCJFbnRlciBmaWxlIG5hbWU6ICIp</text>
+      </register>
+      <register name="-" type="4">
+        <text>'comment').</text>
+      </register>
+      <register name="/" type="4">
+        <text encoding="base64">XDxyZXF1ZXN0XD4=</text>
+      </register>
+    </registers>
+    <search>
+      <last-search encoding="base64">XDxyZXF1ZXN0XD4=</last-search>
+      <last-offset />
+      <last-pattern encoding="base64">XDxyZXF1ZXN0XD4=</last-pattern>
+      <last-dir>1</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search>
+        <entry encoding="base64">XDxwYXNzd29yZFw+</entry>
+        <entry encoding="base64">XDxzbXRwT2JqXD4=</entry>
+        <entry encoding="base64">XDxwcmludFw+</entry>
+        <entry encoding="base64">XDxyZXF1ZXN0XD4=</entry>
+      </history-search>
+      <history-cmd />
+      <history-expr />
+      <history-input />
+    </history>
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed C</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed X</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+</application>
