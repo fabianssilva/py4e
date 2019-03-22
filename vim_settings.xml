@@ -8,6 +8,11 @@
         <mark key="]" line="1" column="0" />
         <mark key="." line="1" column="0" />
       </file>
+      <file name="/Dummy.txt" timestamp="1553295342555">
+        <mark key="[" line="0" column="13" />
+        <mark key="]" line="0" column="13" />
+        <mark key="." line="0" column="13" />
+      </file>
       <file name="/Python Console" timestamp="1553276860536">
         <mark key="[" line="0" column="0" />
       </file>
@@ -106,7 +111,7 @@
         <text encoding="base64">aWYgbGVuKGFkZHJlc3MpIDwgMToKICAgIGV4aXQoKQ==</text>
       </register>
       <register name="&quot;" type="4">
-        <text>'comment').</text>
+        <text>to course</text>
       </register>
       <register name="2" type="4">
         <text>parms = dict()
@@ -140,7 +145,7 @@ print('retrieving', url)</text>
         <text encoding="base64">CgpmbmFtZSA9IGlucHV0KCJFbnRlciBmaWxlIG5hbWU6ICIp</text>
       </register>
       <register name="-" type="4">
-        <text>'comment').</text>
+        <text>to course</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxyZXF1ZXN0XD4=</text>
