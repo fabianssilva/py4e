@@ -57,11 +57,12 @@ def lookup(d, key):
 stuff = ET.parse(fname)
 all = stuff.findall('dict/dict/dict')
 print('Dict count:', len(all))
+
 for entry in all:
     if lookup(entry, 'Track ID') is None:
         continue
 
-    name = lookup(entry, 'Name')
+    track = lookup(entry, 'Name')
     artist = lookup(entry, 'Artist')
     album = lookup(entry, 'Album')
     count = lookup(entry, 'Play Count')
@@ -69,29 +70,38 @@ for entry in all:
     length = lookup(entry, 'Total Time')
     genre = lookup(entry, 'Genre')
 
-    if name is None or artist is None or album is None or genre is None:
+    if track is None or artist is None or album is None or genre is None:
         continue
 
-    print(name, artist, album, count, rating, length, genre)
+    print("Name: " + track, "Artist: " + artist, "Album: " + album, count, rating, length, "Genre: " + genre)
+    try:
+        cur.execute('''INSERT OR IGNORE INTO Artist (name) 
+        VALUES ( ? )''',  (artist, ))
+        cur.execute('SELECT id FROM Artist WHERE name = ? ', (artist, ))
 
-    cur.execute('''INSERT OR IGNORE INTO Artist (name) 
-        VALUES ( ? )''', (artist, ))
-    cur.execute('SELECT id FROM Artist WHERE name = ? ', (artist, ))
-    artist_id = cur.fetchone()[0]
+        artist_id = cur.fetchone()[0]
 
-    cur.execute('''INSERT OR IGNORE INTO Album (title, artist_id) 
-        VALUES ( ?, ? )''', (album, artist_id))
-    cur.execute('SELECT id FROM Album WHERE title = ? ', (album, ))
-    album_id = cur.fetchone()[0]
+        cur.execute('''INSERT OR IGNORE INTO Genre (name) 
+               VALUES (?)''', (genre, ))
+        cur.execute('SELECT id FROM Genre WHERE name = ? ', (genre, ))
+        genre_id = cur.fetchone()[0]
 
-    cur.execute('''INSERT OR IGNORE INTO Genre (name) 
-           VALUES ( ?)''', (genre,))
-    cur.execute('SELECT id FROM Genre WHERE name = ? ', (genre,))
-    genre_id = cur.fetchone()[0]
 
-    cur.execute('''INSERT OR REPLACE INTO Track
+        cur.execute('''INSERT OR IGNORE INTO Album (artist_id, title)
+        VALUES ( ?, ? )''', (artist_id, album))
+        cur.execute('SELECT id FROM Album WHERE title = ? ', (album, ))
+        album_id = cur.fetchone()[0]
+
+
+
+        cur.execute('''INSERT OR REPLACE INTO Track
         (title, album_id, genre_id, len, rating, count) 
         VALUES ( ?, ?, ?, ?, ?, ? )''',
-                name, album_id, genre_id, length, rating, count)
+        (track, album_id, genre_id, length, rating, count))
 
-    conn.commit()
+
+
+        conn.commit()
+
+    except conn.Error as error:
+        print("Failed to insert".format(error))
