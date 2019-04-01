@@ -48,8 +48,9 @@ if ( len(fname) < 1 ) : fname = 'Library.xml'
 def lookup(d, key):
     found = False
     for child in d:
-        if found : return child.text
-        if child.tag == 'key' and child.text == key :
+        if found:
+            return child.text
+        if child.tag == 'key' and child.text == key:
             found = True
     return None
 
@@ -57,7 +58,8 @@ stuff = ET.parse(fname)
 all = stuff.findall('dict/dict/dict')
 print('Dict count:', len(all))
 for entry in all:
-    if ( lookup(entry, 'Track ID') is None ) : continue
+    if lookup(entry, 'Track ID') is None:
+        continue
 
     name = lookup(entry, 'Name')
     artist = lookup(entry, 'Artist')
